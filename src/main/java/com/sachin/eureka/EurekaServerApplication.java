@@ -24,6 +24,8 @@ public class EurekaServerApplication {
         web.run(args);
         String  modify1l;
         String modify2;
+       String message="现在处于分离头指针状态";
+
 
     }
 
