@@ -12,4 +12,9 @@ public class IndexController {
         return "";
 
     }
+    @RequestMapping("/")
+    public String inde2x() {
+        return "";
+
+    }
 }
