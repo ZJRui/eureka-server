@@ -7,5 +7,5 @@ import org.springframework.context.annotation.Configuration;
  * @Date 2020/9/19
  **/
 @Configuration
-public class ServerConfig {
+public class ServerConfigBean {
 }

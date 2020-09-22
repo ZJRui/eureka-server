@@ -15,7 +15,10 @@ public class EurekaServerApplication {
 
     public static void main(String[] args) {
         WebApplicationType type = WebApplicationType.SERVLET;
-        new SpringApplicationBuilder(EurekaServerApplication.class).web(type).run(args);
+        SpringApplicationBuilder builder=new SpringApplicationBuilder(EurekaServerApplication.class);
+
+        SpringApplicationBuilder web = builder.web(type);
+        web.run(args);
     }
 
 }
