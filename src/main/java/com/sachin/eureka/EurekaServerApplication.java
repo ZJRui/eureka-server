@@ -23,6 +23,7 @@ public class EurekaServerApplication {
         SpringApplicationBuilder web = builder.web(type);
         web.run(args);
         String  modify1l;
+        String modify2;
 
     }
 
