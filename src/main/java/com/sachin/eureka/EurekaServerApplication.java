@@ -22,6 +22,7 @@ public class EurekaServerApplication {
 
         SpringApplicationBuilder web = builder.web(type);
         web.run(args);
+       String message="现在处于分离头指针状态";
 
     }
 
