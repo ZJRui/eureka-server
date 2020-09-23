@@ -1,5 +1,6 @@
 package com.sachin.eureka;
 
+import com.sachin.eureka.controller.IndexController;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -12,6 +13,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableEurekaServer
 @SpringBootApplication
 public class EurekaServerApplication {
+    private IndexController indexController;
 
     public static void main(String[] args) {
 
