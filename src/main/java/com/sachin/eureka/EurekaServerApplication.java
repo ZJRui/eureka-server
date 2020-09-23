@@ -15,9 +15,12 @@ public class EurekaServerApplication {
 
     public static void main(String[] args) {
 
-        Class class2=EurekaServerApplication.class;
-        new SpringApplicationBuilder(class2).
+        Class class29=EurekaServerApplication.class;
+        new SpringApplicationBuilder(class29).
                 web(WebApplicationType.SERVLET).run(args);
+        System.out.println(class29.getClass());
+
+        String head="git checkout head";
     }
 
 }
