@@ -15,12 +15,16 @@ public class EurekaServerApplication {
 
     public static void main(String[] args) {
 
-        Class class29=EurekaServerApplication.class;
-        new SpringApplicationBuilder(class29).
-                web(WebApplicationType.SERVLET).run(args);
-        System.out.println(class29.getClass());
+        WebApplicationType type = WebApplicationType.SERVLET;
+        SpringApplicationBuilder builder=new SpringApplicationBuilder(EurekaServerApplication.class);
 
-        String head="git checkout head";
+        SpringApplicationBuilder web = builder.web(type);
+        web.run(args);
+        String  modify1l;
+        String modify2;
+       String message="现在处于分离头指针状态";
+
+
     }
 
 }
